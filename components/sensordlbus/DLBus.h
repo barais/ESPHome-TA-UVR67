@@ -4,7 +4,7 @@
 #define SET_BIT(byte, bit) ((byte) |= (1UL << (bit)))
 
 #include <Arduino.h>
-#include <RingBuf.h>
+#include <ring_buffer.h>
 
 class DLBus {
 public:
@@ -79,4 +79,5 @@ private:
 };
 
 #endif  // DLBus_h
+
 
