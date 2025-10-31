@@ -9,7 +9,7 @@
 class DLBus {
 public:
   // Konstanten (statt #define)
-  static const int DL_Input_Pin = 27;           // Arduino-Pin
+  static const int DL_Input_Pin = GPIO05;           // Arduino-Pin
   static const int Ringbuffersize = 2000;
   static const int DL_Bus_PacketLength = 65;      // for UVR67 and UVR1611
   static const int Tmin = 800;                    // Mikrosekunden
@@ -79,3 +79,4 @@ private:
 };
 
 #endif  // DLBus_h
+
